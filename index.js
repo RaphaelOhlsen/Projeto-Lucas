@@ -68,7 +68,11 @@ state.posts = getNumPosts()
       // document.getElementById("state").innerText = item.id;  *** Comentei esta linha pois iria dar erro pois não está 
                                                               //*** indexada ao HTML 
     });
+    console.log('**************************************************');
+    console.log('**************************************************');
+    console.log('**************************************************');
     console.log(`São ${state.posts.length} posts no total`);
+    console.log('**************************************************');
   });
 
 console.log(fetchPosts())
